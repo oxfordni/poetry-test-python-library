@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "my-python-library"
+version = "0.1.0"
+description = ""
+authors = ["Emerson Farrugia <efarrugia@oni.bio>"]
+packages = [{ include = "oni" }]
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
